@@ -76,13 +76,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="enemy.h" />
     <ClInclude Include="frame.h" />
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="myplane.h" />
     <ClInclude Include="play.h" />
     <ClInclude Include="setcursor.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="enemy.cpp" />
     <ClCompile Include="frame.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="myplane.cpp" />
     <ClCompile Include="setcursor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

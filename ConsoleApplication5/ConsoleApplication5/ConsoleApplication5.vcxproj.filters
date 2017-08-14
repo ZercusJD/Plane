@@ -24,6 +24,12 @@
     <ClCompile Include="setcursor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="myplane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="play.h">
@@ -33,6 +39,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="setcursor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myplane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
